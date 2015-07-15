@@ -14,6 +14,8 @@
 		CE3A6D991B552EF900E5ABBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A6D981B552EF900E5ABBD /* Images.xcassets */; };
 		CE3A6D9C1B552EF900E5ABBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3A6D9A1B552EF900E5ABBD /* LaunchScreen.xib */; };
 		CE3A6DA81B552EF900E5ABBD /* TaskArraysLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6DA71B552EF900E5ABBD /* TaskArraysLayoutTests.m */; };
+		CE3A6DB71B5618AA00E5ABBD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6DB61B5618AA00E5ABBD /* CustomTableViewCell.m */; };
+		CE3A6DBD1B56235F00E5ABBD /* nature-wallpapers-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3A6DBC1B56235F00E5ABBD /* nature-wallpapers-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,19 @@
 		CE3A6D881B552EF800E5ABBD /* TaskArraysLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskArraysLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A6D8C1B552EF800E5ABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3A6D8D1B552EF800E5ABBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE3A6D8F1B552EF800E5ABBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE3A6D901B552EF900E5ABBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE3A6D921B552EF900E5ABBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE3A6D931B552EF900E5ABBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3A6D8F1B552EF800E5ABBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../TaskArraysLayout/AppDelegate.h; sourceTree = "<group>"; };
+		CE3A6D901B552EF900E5ABBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../TaskArraysLayout/AppDelegate.m; sourceTree = "<group>"; };
+		CE3A6D921B552EF900E5ABBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../TaskArraysLayout/ViewController.h; sourceTree = "<group>"; };
+		CE3A6D931B552EF900E5ABBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../TaskArraysLayout/ViewController.m; sourceTree = "<group>"; };
 		CE3A6D961B552EF900E5ABBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3A6D981B552EF900E5ABBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE3A6D9B1B552EF900E5ABBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE3A6DA11B552EF900E5ABBD /* TaskArraysLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskArraysLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A6DA61B552EF900E5ABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3A6DA71B552EF900E5ABBD /* TaskArraysLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskArraysLayoutTests.m; sourceTree = "<group>"; };
+		CE3A6DB51B5618AA00E5ABBD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CE3A6DB61B5618AA00E5ABBD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		CE3A6DBC1B56235F00E5ABBD /* nature-wallpapers-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nature-wallpapers-1.jpg"; path = "../../../../../Desktop/Wallpapers/nature-wallpapers-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +86,9 @@
 		CE3A6D8A1B552EF800E5ABBD /* TaskArraysLayout */ = {
 			isa = PBXGroup;
 			children = (
-				CE3A6D8F1B552EF800E5ABBD /* AppDelegate.h */,
-				CE3A6D901B552EF900E5ABBD /* AppDelegate.m */,
-				CE3A6D921B552EF900E5ABBD /* ViewController.h */,
-				CE3A6D931B552EF900E5ABBD /* ViewController.m */,
+				CE3A6DB31B56187300E5ABBD /* CustomCell */,
+				CE3A6DB11B552F4400E5ABBD /* AppDelegate */,
+				CE3A6DB21B552F6000E5ABBD /* MainVC */,
 				CE3A6D951B552EF900E5ABBD /* Main.storyboard */,
 				CE3A6D981B552EF900E5ABBD /* Images.xcassets */,
 				CE3A6D9A1B552EF900E5ABBD /* LaunchScreen.xib */,
@@ -117,6 +121,35 @@
 				CE3A6DA61B552EF900E5ABBD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3A6DB11B552F4400E5ABBD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A6D8F1B552EF800E5ABBD /* AppDelegate.h */,
+				CE3A6D901B552EF900E5ABBD /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = DataModal;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE3A6DB21B552F6000E5ABBD /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A6D921B552EF900E5ABBD /* ViewController.h */,
+				CE3A6D931B552EF900E5ABBD /* ViewController.m */,
+				CE3A6DBC1B56235F00E5ABBD /* nature-wallpapers-1.jpg */,
+			);
+			path = MainVC;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE3A6DB31B56187300E5ABBD /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A6DB51B5618AA00E5ABBD /* CustomTableViewCell.h */,
+				CE3A6DB61B5618AA00E5ABBD /* CustomTableViewCell.m */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +235,7 @@
 				CE3A6D971B552EF900E5ABBD /* Main.storyboard in Resources */,
 				CE3A6D9C1B552EF900E5ABBD /* LaunchScreen.xib in Resources */,
 				CE3A6D991B552EF900E5ABBD /* Images.xcassets in Resources */,
+				CE3A6DBD1B56235F00E5ABBD /* nature-wallpapers-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +255,7 @@
 			files = (
 				CE3A6D941B552EF900E5ABBD /* ViewController.m in Sources */,
 				CE3A6D911B552EF900E5ABBD /* AppDelegate.m in Sources */,
+				CE3A6DB71B5618AA00E5ABBD /* CustomTableViewCell.m in Sources */,
 				CE3A6D8E1B552EF800E5ABBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +453,7 @@
 				CE3A6DAD1B552EF900E5ABBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3A6DAE1B552EF900E5ABBD /* Build configuration list for PBXNativeTarget "TaskArraysLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +462,7 @@
 				CE3A6DB01B552EF900E5ABBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
