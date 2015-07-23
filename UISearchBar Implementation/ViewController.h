@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource , UISearchBarDelegate, UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
-
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UILabel *labelName;
+@property (strong,nonatomic) NSMutableArray *arrItems;
+@property (strong,nonatomic) NSMutableArray *arrFilteredItems;
+@property (weak, nonatomic) IBOutlet UILabel *labelNoMatch;
+@property (assign) bool isFiltered;
 @end
 
